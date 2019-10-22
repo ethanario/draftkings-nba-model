@@ -3,7 +3,16 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "metadata": {},
+   "metadata": {
+    "papermill": {
+     "duration": 2.457042,
+     "end_time": "2019-10-22T05:57:28.930074",
+     "exception": false,
+     "start_time": "2019-10-22T05:57:26.473032",
+     "status": "completed"
+    },
+    "tags": []
+   },
    "outputs": [
     {
      "name": "stdout",
@@ -30,6 +39,13 @@
    "cell_type": "code",
    "execution_count": 2,
    "metadata": {
+    "papermill": {
+     "duration": 0.026211,
+     "end_time": "2019-10-22T05:57:28.966716",
+     "exception": false,
+     "start_time": "2019-10-22T05:57:28.940505",
+     "status": "completed"
+    },
     "tags": [
      "parameters"
     ]
@@ -51,7 +67,15 @@
      87,
      90,
      119
-    ]
+    ],
+    "papermill": {
+     "duration": 0.182177,
+     "end_time": "2019-10-22T05:57:29.156573",
+     "exception": false,
+     "start_time": "2019-10-22T05:57:28.974396",
+     "status": "completed"
+    },
+    "tags": []
    },
    "outputs": [],
    "source": [
@@ -234,13 +258,175 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "metadata": {},
+   "metadata": {
+    "papermill": {
+     "duration": 3.732932,
+     "end_time": "2019-10-22T05:57:32.901601",
+     "exception": false,
+     "start_time": "2019-10-22T05:57:29.168669",
+     "status": "completed"
+    },
+    "tags": []
+   },
    "outputs": [
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "100%|██████████| 20/20 [00:04<00:00,  4.09it/s]"
+      "\r",
+      "  0%|          | 0/20 [00:00<?, ?it/s]"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "\r",
+      " 10%|█         | 2/20 [00:00<00:01, 12.34it/s]"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "\r",
+      " 20%|██        | 4/20 [00:00<00:01, 10.49it/s]"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "\r",
+      " 25%|██▌       | 5/20 [00:00<00:01,  9.34it/s]"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "\r",
+      " 30%|███       | 6/20 [00:00<00:01,  9.02it/s]"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "\r",
+      " 35%|███▌      | 7/20 [00:00<00:01,  8.11it/s]"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "\r",
+      " 40%|████      | 8/20 [00:00<00:01,  7.52it/s]"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "\r",
+      " 45%|████▌     | 9/20 [00:01<00:01,  5.62it/s]"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "\r",
+      " 50%|█████     | 10/20 [00:01<00:01,  5.83it/s]"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "\r",
+      " 55%|█████▌    | 11/20 [00:01<00:01,  6.01it/s]"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "\r",
+      " 60%|██████    | 12/20 [00:01<00:01,  5.14it/s]"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "\r",
+      " 65%|██████▌   | 13/20 [00:02<00:01,  4.73it/s]"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "\r",
+      " 70%|███████   | 14/20 [00:02<00:01,  4.51it/s]"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "\r",
+      " 75%|███████▌  | 15/20 [00:02<00:01,  4.40it/s]"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "\r",
+      " 80%|████████  | 16/20 [00:02<00:00,  4.45it/s]"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "\r",
+      " 85%|████████▌ | 17/20 [00:02<00:00,  4.68it/s]"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "\r",
+      " 90%|█████████ | 18/20 [00:03<00:00,  4.68it/s]"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "\r",
+      " 95%|█████████▌| 19/20 [00:03<00:00,  4.44it/s]"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "\r",
+      "100%|██████████| 20/20 [00:03<00:00,  4.49it/s]"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "\r",
+      "100%|██████████| 20/20 [00:03<00:00,  5.46it/s]"
      ]
     },
     {
@@ -280,21 +466,48 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "metadata": {},
+   "metadata": {
+    "papermill": {
+     "duration": 0.017454,
+     "end_time": "2019-10-22T05:57:32.937347",
+     "exception": false,
+     "start_time": "2019-10-22T05:57:32.919893",
+     "status": "completed"
+    },
+    "tags": []
+   },
    "outputs": [],
    "source": []
   },
   {
    "cell_type": "code",
    "execution_count": null,
-   "metadata": {},
+   "metadata": {
+    "papermill": {
+     "duration": 0.028078,
+     "end_time": "2019-10-22T05:57:32.988669",
+     "exception": false,
+     "start_time": "2019-10-22T05:57:32.960591",
+     "status": "completed"
+    },
+    "tags": []
+   },
    "outputs": [],
    "source": []
   },
   {
    "cell_type": "code",
    "execution_count": null,
-   "metadata": {},
+   "metadata": {
+    "papermill": {
+     "duration": 0.017762,
+     "end_time": "2019-10-22T05:57:33.024725",
+     "exception": false,
+     "start_time": "2019-10-22T05:57:33.006963",
+     "status": "completed"
+    },
+    "tags": []
+   },
    "outputs": [],
    "source": []
   }
@@ -316,6 +529,17 @@
    "nbconvert_exporter": "python",
    "pygments_lexer": "ipython3",
    "version": "3.7.3"
+  },
+  "papermill": {
+   "duration": 9.67569,
+   "end_time": "2019-10-22T05:57:34.001787",
+   "environment_variables": {},
+   "exception": null,
+   "input_path": "4_Lineup_Creation.ipynb",
+   "output_path": "outputs/temp.txt",
+   "parameters": {},
+   "start_time": "2019-10-22T05:57:24.326097",
+   "version": "1.2.0"
   }
  },
  "nbformat": 4,

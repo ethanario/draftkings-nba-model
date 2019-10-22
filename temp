@@ -1,0 +1,1014 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "hide_input": true,
+    "inputHidden": true
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<span style=\"color:red; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; font-size:2em;\">An Exception was encountered at 'In [1]'.</span>"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "%%html\n",
+    "<span style=\"color:red; font-family:Helvetica Neue, Helvetica, Arial, sans-serif; font-size:2em;\">An Exception was encountered at 'In [1]'.</span>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "papermill": {
+     "duration": 0.030573,
+     "end_time": "2019-10-20T00:30:31.667840",
+     "exception": false,
+     "start_time": "2019-10-20T00:30:31.637267",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "# Imports"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {
+    "papermill": {
+     "duration": 4.483478,
+     "end_time": "2019-10-20T00:30:36.183467",
+     "exception": true,
+     "start_time": "2019-10-20T00:30:31.699989",
+     "status": "failed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "importing Jupyter notebook from Modeling_Functions.ipynb\n"
+     ]
+    },
+    {
+     "ename": "NameError",
+     "evalue": "name 'date_str' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[0;32m<ipython-input-1-38068aaa78ca>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[1;32m     11\u001b[0m \u001b[0;32mfrom\u001b[0m \u001b[0msklearn\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mexceptions\u001b[0m \u001b[0;32mimport\u001b[0m \u001b[0mDataConversionWarning\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     12\u001b[0m \u001b[0;32mimport\u001b[0m \u001b[0mimport_ipynb\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 13\u001b[0;31m \u001b[0;32mimport\u001b[0m \u001b[0mModeling_Functions\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     14\u001b[0m \u001b[0;32mimport\u001b[0m \u001b[0mstatsmodels\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mapi\u001b[0m \u001b[0;32mas\u001b[0m \u001b[0msm\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     15\u001b[0m \u001b[0;32mimport\u001b[0m \u001b[0mstatsmodels\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mgraphics\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mapi\u001b[0m \u001b[0;32mas\u001b[0m \u001b[0msmg\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;32m~/anaconda3/lib/python3.7/importlib/_bootstrap.py\u001b[0m in \u001b[0;36m_find_and_load\u001b[0;34m(name, import_)\u001b[0m\n",
+      "\u001b[0;32m~/anaconda3/lib/python3.7/importlib/_bootstrap.py\u001b[0m in \u001b[0;36m_find_and_load_unlocked\u001b[0;34m(name, import_)\u001b[0m\n",
+      "\u001b[0;32m~/anaconda3/lib/python3.7/importlib/_bootstrap.py\u001b[0m in \u001b[0;36m_load_unlocked\u001b[0;34m(spec)\u001b[0m\n",
+      "\u001b[0;32m~/anaconda3/lib/python3.7/importlib/_bootstrap.py\u001b[0m in \u001b[0;36m_load_backward_compatible\u001b[0;34m(spec)\u001b[0m\n",
+      "\u001b[0;32m~/anaconda3/lib/python3.7/site-packages/import_ipynb.py\u001b[0m in \u001b[0;36mload_module\u001b[0;34m(self, fullname)\u001b[0m\n\u001b[1;32m     59\u001b[0m                 \u001b[0mcode\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mshell\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0minput_transformer_manager\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mtransform_cell\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mcell\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0msource\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     60\u001b[0m                 \u001b[0;31m# run the code in themodule\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 61\u001b[0;31m                 \u001b[0mexec\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mcode\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mmod\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m__dict__\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     62\u001b[0m         \u001b[0;32mfinally\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     63\u001b[0m             \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mshell\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0muser_ns\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0msave_user_ns\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;32m~/draftkings-nba-model/Modeling_Functions.ipynb\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n",
+      "\u001b[0;31mNameError\u001b[0m: name 'date_str' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "import time\n",
+    "import csv\n",
+    "import os\n",
+    "import pandas as pd\n",
+    "from sklearn import preprocessing, model_selection, svm, linear_model, metrics\n",
+    "from sklearn.svm import SVR\n",
+    "from sklearn.linear_model import LinearRegression\n",
+    "from sklearn.ensemble import RandomForestRegressor\n",
+    "from sklearn.cluster import MeanShift\n",
+    "import numpy as np\n",
+    "from sklearn.exceptions import DataConversionWarning\n",
+    "import import_ipynb\n",
+    "import Modeling_Functions\n",
+    "import statsmodels.api as sm\n",
+    "import statsmodels.graphics.api as smg\n",
+    "from statsmodels.graphics.plot_grids import scatter_ellipse\n",
+    "import matplotlib.pyplot as plt\n",
+    "import seaborn as sns"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "source": [
+    "# Set Prediction Date"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": [
+     "parameters"
+    ]
+   },
+   "outputs": [],
+   "source": [
+    "predictions_date = '2018-10-30'"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "source": [
+    "# Creating Positional DataFrames"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "heading_collapsed": true,
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "source": [
+    "### Truncate NBAData After The Prediction Date\n",
+    "Remove all rows after the date for which we are predicting. Split size is the proportion of the proportion of the remaining data on which to predict"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "hidden": true,
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "df = pd.read_csv('NBAData.csv')\n",
+    "\n",
+    "#Sort by date\n",
+    "df = df.set_index('GID')\n",
+    "df = df.sort_index()\n",
+    "df = df.reset_index()\n",
+    "\n",
+    "#Delete all rows after prediction date\n",
+    "df = df[df['Over/Under'] < 1000]\n",
+    "date_range = df.index[df['Date']==predictions_date]\n",
+    "start_range = date_range[0]\n",
+    "end_range = date_range[len(date_range)-1]\n",
+    "df = df.truncate(after = end_range)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "heading_collapsed": true,
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "source": [
+    "### Drop Unnecessary Columns\n",
+    "Drop all columns that are not used to predict scores and save training data in df_orig"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "hidden": true,
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "df.drop('Year',inplace=True, axis=1)\n",
+    "df.drop('Month',inplace=True, axis=1)\n",
+    "df.drop('Day',inplace=True, axis=1)\n",
+    "df.drop('Team',inplace=True, axis=1)\n",
+    "df.drop('Opponent',inplace=True, axis=1)\n",
+    "df.drop('Season',inplace=True, axis=1)\n",
+    "df.drop('Unnamed: 0',inplace=True, axis=1)\n",
+    "df.drop('Away',inplace=True, axis=1)\n",
+    "df = df.drop(['Value'],axis=1)\n",
+    "#'Avg PTS','Spread','Avg FG','Avg 3P','Avg FT','Avg TRB','Avg TOV','Avg STL','Avg BLK','Avg AST'"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "heading_collapsed": true,
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "source": [
+    "### Create Dummy Variables\n",
+    "Create and columns for a dummy variable for position. Then drop original columns"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "hidden": true,
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "#df_dummy_opp = pd.get_dummies(df['Season+Opp'])\n",
+    "df_dummy_pos = pd.get_dummies(df['Position'])\n",
+    "df = pd.concat([df, df_dummy_pos], axis=1)\n",
+    "df.drop('Season+Opp',inplace=True, axis=1)\n",
+    "df.drop('Position',inplace=True, axis=1)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "heading_collapsed": true,
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "source": [
+    "### Seperate Each Position into Its Own DataFrame for Modeling\n",
+    "Seperates each position, pg, sg, sf, pf, c, into its own dataframe and stores those dataframes in df_list"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "hidden": true,
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "df_pg = df[df['PG'] == 1]\n",
+    "df_sg = df[df['SG'] == 1]\n",
+    "df_sf = df[df['SF'] == 1]\n",
+    "df_pf = df[df['PF'] == 1]\n",
+    "df_c = df[df['C'] == 1]\n",
+    "\n",
+    "df_pg.drop(['SF','SG','PF','C','PG'],inplace=True, axis=1)\n",
+    "df_sg.drop(['SF','PG','PF','C','SG'],inplace=True, axis=1)\n",
+    "df_sf.drop(['PG','SG','PF','C','SF'],inplace=True, axis=1)\n",
+    "df_pf.drop(['SF','SG','PG','C','PF'],inplace=True, axis=1)\n",
+    "df_c.drop(['SF','SG','PF','PG','C'],inplace=True, axis=1)\n",
+    "\n",
+    "df_pg = df_pg.set_index('GID').sort_index().reset_index()\n",
+    "df_sg = df_sg.set_index('GID').sort_index().reset_index()\n",
+    "df_sf = df_sf.set_index('GID').sort_index().reset_index()\n",
+    "df_pf = df_pf.set_index('GID').sort_index().reset_index()\n",
+    "df_c = df_c.set_index('GID').sort_index().reset_index()\n",
+    "\n",
+    "df_pg.drop('GID',inplace=True,axis=1)\n",
+    "df_sg.drop('GID',inplace=True,axis=1)\n",
+    "df_sf.drop('GID',inplace=True,axis=1)\n",
+    "df_pf.drop('GID',inplace=True,axis=1)\n",
+    "df_c.drop('GID',inplace=True,axis=1)\n",
+    "\n",
+    "\n",
+    "\n",
+    "df_list = [df_pg,df_sg,df_sf,df_pf,df_c]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "source": [
+    "### Save Arrays for Test Data\n",
+    "Save Date, Salary, Projected Points, Position, Name columns for the test data that will later be added to predictions.csv"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "heading_collapsed": true,
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "source": [
+    "#### Find Index at Which to Split DataFrames"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "hidden": true,
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "pg_test_num = Modeling_Functions.get_test_num(df_pg, predictions_date)\n",
+    "sg_test_num = Modeling_Functions.get_test_num(df_sg, predictions_date)\n",
+    "sf_test_num = Modeling_Functions.get_test_num(df_sf, predictions_date)\n",
+    "pf_test_num = Modeling_Functions.get_test_num(df_pf, predictions_date)\n",
+    "c_test_num = Modeling_Functions.get_test_num(df_c, predictions_date)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "heading_collapsed": true,
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "source": [
+    "#### Save Arrays for Later Use"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "hidden": true,
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "pg_date = np.array(df_pg['Date'])[-pg_test_num:]\n",
+    "pg_salary = np.array(df_pg['Salary'])[-pg_test_num:]\n",
+    "pg_proj_points = np.array(df_pg['Projected Points'])[-pg_test_num:]\n",
+    "pg_names_array = np.array(df_pg['Name'])[-pg_test_num:]\n",
+    "df_pg.drop('Date',inplace=True, axis=1)\n",
+    "df_pg.drop(['Name'],inplace=True, axis=1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "hidden": true,
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "sg_date = np.array(df_sg['Date'])[-sg_test_num:]\n",
+    "sg_salary = np.array(df_sg['Salary'])[-sg_test_num:]\n",
+    "sg_proj_points = np.array(df_sg['Projected Points'])[-sg_test_num:]\n",
+    "sg_names_array = np.array(df_sg['Name'])[-sg_test_num:]\n",
+    "df_sg.drop('Date',inplace=True, axis=1)\n",
+    "df_sg.drop(['Name'],inplace=True, axis=1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "hidden": true,
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "pf_date = np.array(df_pf['Date'])[-pf_test_num:]\n",
+    "pf_salary = np.array(df_pf['Salary'])[-pf_test_num:]\n",
+    "pf_proj_points = np.array(df_pf['Projected Points'])[-pf_test_num:]\n",
+    "pf_names_array = np.array(df_pf['Name'])[-pf_test_num:]\n",
+    "df_pf.drop('Date',inplace=True, axis=1)\n",
+    "df_pf.drop(['Name'],inplace=True, axis=1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "hidden": true,
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "sf_date = np.array(df_sf['Date'])[-sf_test_num:]\n",
+    "sf_salary = np.array(df_sf['Salary'])[-sf_test_num:]\n",
+    "sf_proj_points = np.array(df_sf['Projected Points'])[-sf_test_num:]\n",
+    "sf_names_array = np.array(df_sf['Name'])[-sf_test_num:]\n",
+    "df_sf.drop('Date',inplace=True, axis=1)\n",
+    "df_sf.drop(['Name'],inplace=True, axis=1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "hidden": true,
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "c_date = np.array(df_c['Date'])[-c_test_num:]\n",
+    "c_salary = np.array(df_c['Salary'])[-c_test_num:]\n",
+    "c_proj_points = np.array(df_c['Projected Points'])[-c_test_num:]\n",
+    "c_names_array = np.array(df_c['Name'])[-c_test_num:]\n",
+    "df_c.drop('Date',inplace=True, axis=1)\n",
+    "df_c.drop(['Name'],inplace=True, axis=1)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "heading_collapsed": true,
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "source": [
+    "# Data Visualization"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "heading_collapsed": true,
+    "hidden": true,
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "source": [
+    "### Graphing Variable Correlation to Points for Each Position\n",
+    "Graphs Projected Points, Salary, Over/Under, Spread, Avg MP, and Avg DK Points against actual points to get a look at their value as a predictor"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "hidden": true,
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "sns.set()\n",
+    "i = 0\n",
+    "df_names = ['Point Guards', \"Shooting Guards\", \"Small Fowards\", \"Power Fowards\", \"Centers\"]\n",
+    "for df in df_list:\n",
+    "    g = sns.pairplot(df, kind='reg',x_vars=['Projected Points', \"Salary\", \"Over/Under\", \n",
+    "                                            \"Spread\", \"Avg MP\", \"Avg DK Points\"], \n",
+    "                 y_vars='Points', size=3, aspect=0.7, plot_kws={'line_kws':{'linewidth':10,'color':'red'}})\n",
+    "    g.fig.suptitle(df_names[i])\n",
+    "    \n",
+    "    i=i+1"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "heading_collapsed": true,
+    "hidden": true,
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "source": [
+    "### DvP Correlation with Points at Each Postion\n",
+    "Uses seaborn regplot() to graph the best fit line between the mean player performances at every opponent DvP for each position"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "hidden": true,
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "sns.set()\n",
+    "i=0\n",
+    "fig, ax = plt.subplots(1, 5, sharey='row', figsize=(15,5))\n",
+    "plt.tight_layout()\n",
+    "for df in df_list:\n",
+    "    sns.set()\n",
+    "    sns.regplot('L5 Dvp', 'Points', data=df, fit_reg=True, x_estimator=np.mean, truncate=True,\n",
+    "                line_kws={'linewidth':10,'color':'red'}, \n",
+    "                ax=ax[i]).set_title(df_names[i], fontsize = 20)    \n",
+    "    i=i+1"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "heading_collapsed": true,
+    "hidden": true,
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "source": [
+    "### Looking at Coefficient Correlation Matrix\n",
+    "Shows a table of correlation coefficients between each possible variable pair for each individual position and lastly for all positions"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "hidden": true,
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "scrolled": false,
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "df_pg_no_points = df_pg.drop([\"Points\"],1)\n",
+    "df_sg_no_points = df_sg.drop([\"Points\"],1)\n",
+    "df_pf_no_points = df_pf.drop([\"Points\"],1)\n",
+    "df_sf_no_points = df_sf.drop([\"Points\"],1)\n",
+    "df_c_no_points = df_c.drop([\"Points\"],1)\n",
+    "df_no_points = df.drop([\"Points\"],1)\n",
+    "\n",
+    "pg_corr_matrix = df_pg_no_points.corr()\n",
+    "sg_corr_matrix = df_sg_no_points.corr()\n",
+    "sf_corr_matrix = df_sf_no_points.corr()\n",
+    "pf_corr_matrix = df_pf_no_points.corr()\n",
+    "c_corr_matrix = df_c_no_points.corr()\n",
+    "df_corr_matrix = df_no_points.corr()\n",
+    "\n",
+    "\n",
+    "fig, ax = plt.subplots(2, 3, figsize=(15,10))\n",
+    "plt.rcParams.update({'font.size': 16})\n",
+    "\n",
+    "smg.plot_corr(pg_corr_matrix, xnames=df_pg_no_points.columns, ax=ax[0][0], \n",
+    "              title=\"Point Guards\")\n",
+    "smg.plot_corr(sg_corr_matrix, xnames=df_sg_no_points.columns, ax=ax[0][1], \n",
+    "              title=\"Shooting Guards\")\n",
+    "smg.plot_corr(sf_corr_matrix, xnames=df_sf_no_points.columns, ax=ax[0][2], \n",
+    "              title=\"Small Fowards\")\n",
+    "smg.plot_corr(pf_corr_matrix, xnames=df_pf_no_points.columns, ax=ax[1][0], \n",
+    "              title=\"Power Fowards\")\n",
+    "smg.plot_corr(c_corr_matrix, xnames=df_c_no_points.columns, ax=ax[1][1], \n",
+    "              title=\"Center\")\n",
+    "smg.plot_corr(df_corr_matrix, xnames=df_no_points.columns, ax=ax[1][2], \n",
+    "              title=\"All Postions\")\n",
+    "plt.show()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "source": [
+    "# Modeling"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "heading_collapsed": true,
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "source": [
+    "### Seperate Into Train and Test Sets\n",
+    "Creates train and test sets for each position"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "hidden": true,
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "pg_training_data = np.array(df_pg.drop(['Points'],1))[:-pg_test_num]\n",
+    "pg_training_answers = np.array(df_pg['Points'])[:-pg_test_num]\n",
+    "pg_test_data = np.array(df_pg.drop(['Points'],1))[-pg_test_num:]\n",
+    "pg_test_answers = np.array(df_pg['Points'])[-pg_test_num:]\n",
+    "\n",
+    "sg_training_data = np.array(df_sg.drop(['Points'],1))[:-sg_test_num]\n",
+    "sg_training_answers = np.array(df_sg['Points'])[:-sg_test_num]\n",
+    "sg_test_data = np.array(df_sg.drop(['Points'],1))[-sg_test_num:]\n",
+    "sg_test_answers = np.array(df_sg['Points'])[-sg_test_num:]\n",
+    "\n",
+    "sf_training_data = np.array(df_sf.drop(['Points'],1))[:-sf_test_num]\n",
+    "sf_training_answers = np.array(df_sf['Points'])[:-sf_test_num]\n",
+    "sf_test_data = np.array(df_sf.drop(['Points'],1))[-sf_test_num:]\n",
+    "sf_test_answers = np.array(df_sf['Points'])[-sf_test_num:]\n",
+    "\n",
+    "pf_training_data = np.array(df_pf.drop(['Points'],1))[:-pf_test_num]\n",
+    "pf_training_answers = np.array(df_pf['Points'])[:-pf_test_num]\n",
+    "pf_test_data = np.array(df_pf.drop(['Points'],1))[-pf_test_num:]\n",
+    "pf_test_answers = np.array(df_pf['Points'])[-pf_test_num:]\n",
+    "\n",
+    "c_training_data = np.array(df_c.drop(['Points'],1))[:-c_test_num]\n",
+    "c_training_answers = np.array(df_c['Points'])[:-c_test_num]\n",
+    "c_test_data = np.array(df_c.drop(['Points'],1))[-c_test_num:]\n",
+    "c_test_answers = np.array(df_c['Points'])[-c_test_num:]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "source": [
+    "### Linear Regression Vs Random Forest Vs Expert Predictions"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "pg_lin_pred, pg_for_pred = Modeling_Functions.model_analysis(pg_training_data, pg_training_answers, pg_test_data, pg_test_answers, pg_proj_points, \"PG\")\n",
+    "sg_lin_pred, sg_for_pred = Modeling_Functions.model_analysis(sg_training_data, sg_training_answers, sg_test_data, sg_test_answers, sg_proj_points, \"SG\")\n",
+    "sf_lin_pred, sf_for_pred = Modeling_Functions.model_analysis(sf_training_data, sf_training_answers, sf_test_data, sf_test_answers, sf_proj_points, \"SF\")\n",
+    "pf_lin_pred, pf_for_pred = Modeling_Functions.model_analysis(pf_training_data, pf_training_answers, pf_test_data, pf_test_answers, pf_proj_points, \"PF\")\n",
+    "c_lin_pred, c_for_pred = Modeling_Functions.model_analysis(c_training_data, c_training_answers, c_test_data, c_test_answers, c_proj_points, \"C\")\n",
+    "\n",
+    "i = i+1\n",
+    "col_labels = ['Position','Score', 'Regression Type']\n",
+    "pos_labels = ['PG', 'SG', 'SF', 'PF', 'C']\n",
+    "r2_lin = [metrics.r2_score(pg_test_answers, pg_lin_pred), metrics.r2_score(sg_test_answers, sg_lin_pred),\n",
+    "         metrics.r2_score(sf_test_answers, sf_lin_pred), metrics.r2_score(pf_test_answers, pf_lin_pred), \n",
+    "         metrics.r2_score(c_test_answers, c_lin_pred)]\n",
+    "r2_for = [metrics.r2_score(pg_test_answers, pg_for_pred), metrics.r2_score(sg_test_answers, sg_for_pred),\n",
+    "         metrics.r2_score(sf_test_answers, sf_for_pred), metrics.r2_score(pf_test_answers, pf_for_pred), \n",
+    "         metrics.r2_score(c_test_answers, c_for_pred)]\n",
+    "r2_proj = [metrics.r2_score(pg_test_answers, pg_proj_points), metrics.r2_score(sg_test_answers, sg_proj_points),\n",
+    "         metrics.r2_score(sf_test_answers, sf_proj_points), metrics.r2_score(pf_test_answers, pf_proj_points), \n",
+    "         metrics.r2_score(c_test_answers, c_proj_points)]\n",
+    "\n",
+    "mae_lin = [metrics.mean_absolute_error(pg_test_answers, pg_lin_pred), metrics.mean_absolute_error(sg_test_answers, sg_lin_pred),\n",
+    "         metrics.mean_absolute_error(sf_test_answers, sf_lin_pred), metrics.mean_absolute_error(pf_test_answers, pf_lin_pred), \n",
+    "         metrics.mean_absolute_error(c_test_answers, c_lin_pred)]\n",
+    "mae_for = [metrics.mean_absolute_error(pg_test_answers, pg_for_pred), metrics.mean_absolute_error(sg_test_answers, sg_for_pred),\n",
+    "         metrics.mean_absolute_error(sf_test_answers, sf_for_pred), metrics.mean_absolute_error(pf_test_answers, pf_for_pred), \n",
+    "         metrics.mean_absolute_error(c_test_answers, c_for_pred)]\n",
+    "mae_proj = [metrics.mean_absolute_error(pg_test_answers, pg_proj_points), metrics.mean_absolute_error(sg_test_answers, sg_proj_points),\n",
+    "         metrics.mean_absolute_error(sf_test_answers, sf_proj_points), metrics.mean_absolute_error(pf_test_answers, pf_proj_points), \n",
+    "         metrics.mean_absolute_error(c_test_answers, c_proj_points)]"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "metadata": {
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "source": [
+    "fig = plt.figure(figsize=(15,7))\n",
+    "\n",
+    "#r2_df = pd.DataFrame(columns = col_labels)\n",
+    "barWidth = .25\n",
+    "\n",
+    "r1 = np.arange(len(r2_lin))\n",
+    "r2 = [x + barWidth for x in r1]\n",
+    "r3 = [x + barWidth for x in r2]\n",
+    "\n",
+    "plt.bar(r1, r2_lin, color='#DF928E', width=barWidth, edgecolor='white', label='Linear Regression r2')\n",
+    "plt.bar(r2, r2_for, color='#557f2d', width=barWidth, edgecolor='white', label='Random Forest r2')\n",
+    "plt.bar(r3, r2_proj, color='#778AC9', width=barWidth, edgecolor='white', label='Expert Projection r2')\n",
+    "\n",
+    "plt.title('\\nR-Squared Values of Different Predictors \\n', fontsize = 30)\n",
+    "plt.ylabel('R-Squared Scores', fontsize=25)\n",
+    "plt.xticks(ticks= [0.25,1.25,2.25,3.25,4.25], labels = pos_labels, fontsize = 20)\n",
+    "plt.yticks(fontsize=20)\n",
+    "plt.legend()\n",
+    "    \n",
+    "plt.show()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "source": [
+    "### Combine Postion Specific DataFrames\n",
+    "Combining the dataframes for each position and calculating the mean absolute error and r2 for both our modeled predictions and expert predictions"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "results = pd.DataFrame()\n",
+    "\n",
+    "results['Name']= np.concatenate([pg_names_array,sg_names_array,sf_names_array,pf_names_array,c_names_array])\n",
+    "results['Position']= np.concatenate([np.full(len(pg_lin_pred), \"PG\"), np.full(len(sg_lin_pred), \"SG\"),\n",
+    "                                    np.full(len(sf_lin_pred), \"SF\"), np.full(len(pf_lin_pred), \"PF\"),\n",
+    "                                    np.full(len(c_lin_pred), \"C\")])\n",
+    "results['Salary']= np.concatenate([pg_salary, sg_salary, sf_salary, pf_salary,c_salary])\n",
+    "results['Projected Points']= np.concatenate([pg_proj_points, sg_proj_points, sf_proj_points,\n",
+    "                                             pf_proj_points, c_proj_points])\n",
+    "results['Predicted Points']= np.concatenate([pg_lin_pred, sg_lin_pred, sf_lin_pred,\n",
+    "                                             pf_lin_pred, c_lin_pred]).round(1)\n",
+    "results['Day']= np.concatenate([pg_date, sg_date, sf_date, pf_date,c_date])\n",
+    "results['Points']= np.concatenate([pg_test_answers, sg_test_answers, sf_test_answers,\n",
+    "                                             pf_test_answers, c_test_answers])\n",
+    "\n",
+    "results.to_csv('Predictions.csv')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "papermill": {
+     "duration": null,
+     "end_time": null,
+     "exception": null,
+     "start_time": null,
+     "status": "pending"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.3"
+  },
+  "papermill": {
+   "duration": 8.834022,
+   "end_time": "2019-10-20T00:30:37.452508",
+   "environment_variables": {},
+   "exception": true,
+   "input_path": "3_Modeling.ipynb",
+   "output_path": "temp",
+   "parameters": {},
+   "start_time": "2019-10-20T00:30:28.618486",
+   "version": "1.2.0"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
